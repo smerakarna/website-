@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",                       // Modern JS features
+    "module": "commonjs",                     // Node-compatible module system
+    "strict": true,                           // Enable all strict type-checking options
+    "esModuleInterop": true,                  // Allow importing CommonJS modules with default imports
+    "moduleResolution": "node",               // Use Node-style module resolution
+    "forceConsistentCasingInFileNames": true, // Enforce consistent imports
+    "skipLibCheck": true                      // Faster startup by skipping .d.ts checks
+  },
+  "include": ["**/*.ts"],
+  "exclude": ["node_modules"]
+}
